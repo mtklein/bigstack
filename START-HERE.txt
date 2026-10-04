@@ -1,0 +1,44 @@
+STELLARIS BIGSTACK FIX — START HERE
+
+For Macs with Stellaris installed through Steam (macOS 11 or later).
+Works on Apple Silicon and Intel Macs. No programming tools needed.
+
+1. CHOOSE YOUR MODS
+Open Stellaris as usual. Choose your playset in the Paradox Launcher.
+Then quit the game and launcher.
+
+2. OPEN TERMINAL
+Press Command-Space, type Terminal, and press Return.
+Terminal is already on your Mac.
+
+3. RUN SETUP
+Type the word bash and then one space in Terminal.
+Drag INSTALL.command from this folder into the Terminal window.
+Click the Terminal window and press Return.
+
+Setup copies the fix into your game and copies a Steam setting for you.
+If it asks where the game is, open Steam, right-click Stellaris, and choose
+Manage > Browse local files. Select that folder in the setup window.
+
+4. PASTE INTO STEAM
+In your Steam Library, right-click Stellaris and choose Properties.
+Under General, find Launch Options. Clear anything already in that box.
+Press Command-V to paste the setting that setup copied.
+
+5. PLAY
+Close Properties and click Play. The game opens directly, using the mods
+you chose in step 1. It skips the Paradox Launcher.
+You can close Terminal and delete this downloaded folder and ZIP now.
+
+TO CHANGE MODS
+Clear Launch Options in Steam. Click Play, choose your playset in the
+Paradox Launcher, then quit. Run setup again and paste the setting back.
+Download the ZIP again if you deleted it.
+
+TO UNDO THE FIX
+Clear Launch Options in Steam. The game will start normally again.
+
+NEED HELP?
+See README.md in this folder or visit:
+https://github.com/mtklein/bigstack
+This fix addresses one galaxy-generation crash; it cannot fix every crash.
